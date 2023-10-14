@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3845/3845731.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-Online</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="mainContainer">
+            <div id="Logo">
+                <img src="https://cdn-icons-png.flaticon.com/128/3845/3845731.png" alt="Reload">
+                <p>Weather-Online</p>
+            </div>
+            <div id="searchBar">
+                <div id="inputSection">
+                    <input id="input" type="text" placeholder="Enter City Name">
+                </div>
+                <div id="searchButton">
+                    <button><img src="search.png" alt="Reload"></button>
+                </div>
+            </div>
+
+            <div id="weather">
+                <img class="weather-icon" src="sun.png" alt="Reload">
+                <h1 id="temp">0°C</h1>
+                <h2 class="cityName"></h2>
+            </div>
+
+            <div class="dets">
+                <div id="humidity">
+                    <img class="humidityImg" src="drop.png" alt="reload">
+                    <div class="humidityText">
+                        <p id="humi">0%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div id="wind">
+                    <img class="windImg" src="storm.png" alt="Reload">
+                    <div class="windText">
+                        <p id="windSpeed">0 km/h</p>
+                        <p>wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
